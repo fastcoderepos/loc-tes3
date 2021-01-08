@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+         
+		  <changeSet author="fastCode, Inc" id="000000-000100">
+	    <addColumn tableName="category">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000101">
+	    <addColumn tableName="film_actor">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000102">
+	    <addColumn tableName="address">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000103">
+	    <addColumn tableName="customer">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000104">
+	    <addColumn tableName="film">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000105">
+	    <addColumn tableName="staff">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000106">
+	    <addColumn tableName="store">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000107">
+	    <addColumn tableName="city">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000108">
+	    <addColumn tableName="payment">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000109">
+	    <addColumn tableName="rental">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000110">
+	    <addColumn tableName="language">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000111">
+	    <addColumn tableName="actor">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000112">
+	    <addColumn tableName="custom_user">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000113">
+	    <addColumn tableName="country">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000114">
+	    <addColumn tableName="inventory">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+	  <changeSet author="fastCode, Inc" id="000000-000115">
+	    <addColumn tableName="film_category">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      	<constraints nullable="false"/>
+				</column>
+	   	</addColumn>
+	 </changeSet>
+         
+</databaseChangeLog>
